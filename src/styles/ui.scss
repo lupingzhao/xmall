@@ -1,0 +1,43 @@
+.about--foot {
+    .el-footer {
+        height: 100% !important;
+    }
+}
+
+// 走马灯
+.about--carousel {
+    .el-carousel {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .el-carousel__button {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background-color: gray;
+    }
+
+}
+
+
+// 详情页图片
+.about--img {
+    img {
+        width: 1000px !important;
+    }
+}
+
+// 修改弹出框图标的颜色
+.icon-warning-circle-fill {
+    color: rgb(70, 135, 165);
+}
+
+// 整个屏幕的宽度
+// html,
+// body,
+// #app,
+// .box {
+//     // min-width: 1000px;
+// }
